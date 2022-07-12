@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-8&_*rif@q6$#2#zu1t!&l7+&*0ri!1bazts_7g47*07g)d*ryu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://apisensorweb-api.herokuapp.com/']
 
 
 # Application definition
