@@ -18,4 +18,4 @@ class ReadFileView(serializers.ModelSerializer):
     class Meta:        
         model = Fileupload
         file = serializers.FileField()
-        fields = "__all__"
+        fields = ('id', 'xid', 'ts', 'dado')
